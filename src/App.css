@@ -1,0 +1,88 @@
+@font-face {
+  font-family: 'Old Standard TT';
+  src: url('./assets/Old_Standard_TT/OldStandardTT-Regular.ttf')
+    format('truetype');
+}
+@font-face {
+  font-family: 'Old Standard TT';
+  src: url('./assets/Old_Standard_TT/OldStandardTT-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+.main-container {
+  display: flex;
+  justify-content: center; /* this will center horizontally */
+  align-items: center; /* this will center vertically */
+  height: 100vh; /* this will take the full height of the viewport */
+}
+
+.box-container {
+  background-color: burlywood;
+  width: 1000px;
+  height: fit-content;
+  padding: 20px;
+  box-shadow: 4px 4px 1px rgb(150, 119, 79);
+  /* your styles for the box container */
+}
+.control-panel-container {
+  align-items: center;
+  display: flex;
+  height: 100px;
+}
+.title {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  width: 30%;
+  height: 100%;
+}
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.lable-container {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  width: 100px;
+}
+.money-input {
+  border: 1px white;
+  margin: 3px;
+  padding: 10px;
+  font-size: 15px;
+  height: 40px;
+  font-family: 'Old Standard TT';
+  transition: all 0.3s ease;
+}
+.money-input:hover {
+  box-shadow: 3px 3px 1px rgb(150, 119, 79);
+  transform: translateX(-3px);
+  transform: translateY(-3px);
+}
+.simulate-button {
+  border: 1px white;
+  background-color: white;
+  margin: 3px;
+  font-size: 15px;
+  height: 65px;
+  width: 150px;
+  font-family: 'Old Standard TT';
+  transition: all 0.2s ease;
+}
+.simulate-button:hover {
+  color: white;
+  background-color: brown;
+  box-shadow: 3px 3px 1px rgb(150, 119, 79);
+  transform: translateX(-3px);
+  transform: translateY(-3px);
+}
+.simulate-button:active {
+  box-shadow: 1px 1px 1px rgb(150, 119, 79);
+  transform: translateX(0px);
+  transform: translateY(0px);
+}

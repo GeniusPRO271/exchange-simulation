@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Old Standard TT';
+  src: url('./assets/Old_Standard_TT/OldStandardTT-Regular.ttf')
+    format('truetype');
+}
+:root {
+  font-family: 'Old Standard TT';
+}
+
+input:focus {
+  outline: none;
+}
